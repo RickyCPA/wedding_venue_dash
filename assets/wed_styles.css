@@ -1,0 +1,39 @@
+/* Color Palette: 222831 - main
+393E46 - second
+00ADB5 - third
+EEEEEE - fourth */
+
+
+.row{
+  margin:0;
+}
+
+h1{
+  color: #EEEEEE;
+  font-family: montserrat-thin;
+  font-size: 4rem;
+  text-align: center;
+}
+
+p{
+  color: #EEEEEE;
+  font-family: ubuntu;
+  font-size: 1.5rem;
+}
+
+h3{
+  color: #EEEEEE;
+  font-family: montserrat-thin;
+  margin: 1.5rem 0 0 0;
+}
+
+.ricky-site{
+  background-color: #222831;
+}
+.wed-title{
+  color: #EEEEEE;
+  background-color: #222831;
+  font-family: system-ui;
+  font-size: 4rem;
+  text-align: center;
+}
