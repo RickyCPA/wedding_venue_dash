@@ -6,7 +6,7 @@ import dash_bootstrap_components as dbc
 
 
 # Initialize venues dataset 
-venues = pd.read_csv('./wedding_venue_dash/la_wedding_venue_data_lat_long.csv')
+venues = pd.read_csv('../wedding_venue_dash/la_wedding_venue_data_lat_long.csv')
 venues_table = venues.drop(columns=['region', 'country', 'postal code', 'latitude', 'longitude'])
 #initialize app using Dash framework
 app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
